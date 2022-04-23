@@ -1,0 +1,53 @@
+object color_pixel: Tcolor_pixel
+  Left = 446
+  Height = 30
+  Top = 328
+  Width = 250
+  Caption = 'color_pixel'
+  ClientHeight = 30
+  ClientWidth = 250
+  OnCreate = FormCreate
+  LCLVersion = '2.2.0.4'
+  object Label1: TLabel
+    Left = 0
+    Height = 17
+    Top = 2
+    Width = 25
+    Caption = 'R = '
+  end
+  object Edit1: TEdit
+    Left = 24
+    Height = 25
+    Top = 0
+    Width = 40
+    TabOrder = 0
+  end
+  object Label2: TLabel
+    Left = 88
+    Height = 17
+    Top = 2
+    Width = 26
+    Caption = 'G = '
+  end
+  object Edit2: TEdit
+    Left = 112
+    Height = 25
+    Top = 0
+    Width = 40
+    TabOrder = 1
+  end
+  object Label3: TLabel
+    Left = 184
+    Height = 17
+    Top = 6
+    Width = 25
+    Caption = 'B = '
+  end
+  object Edit3: TEdit
+    Left = 208
+    Height = 25
+    Top = 0
+    Width = 40
+    TabOrder = 2
+  end
+end
